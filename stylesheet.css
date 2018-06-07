@@ -1,0 +1,186 @@
+*, *:before, *:after {
+  box-sizing: border-box;;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #424242;
+}
+
+img {
+  height: auto;
+  max-width: 100%
+}
+
+.hero_image {
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header_name {
+  font-size: 7vw;
+  margin-bottom: 20px;
+}
+
+.header_desc, .content {
+  font-size: 5vw;
+  font-style: italic;
+}
+
+hr {
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #7d97ad;
+}  /*I understand I could be using margin shorthand here, but as I'm still learning what does what, I would like to stick with the long hand for now.  :)*?
+
+.about_me {
+  margin: 40px;
+}
+
+.about_me, .featured_work {
+  text-align: center;
+}
+
+.content_header {
+  margin: 30px;
+}
+
+.examples {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #7d97ad;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+
+.card-one, .card-two, .card-three {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thumbnail {
+  margin: 5px;
+}
+
+
+@media screen and (min-width: 460px) {
+  .header_name {
+    font-size: 5vw;
+    margin-bottom: 20px;
+  }
+
+  .header_desc, .content {
+    font-size: 3vw;
+    font-style: italic;
+  }
+
+  .examples {
+    width: 100%;
+    display: flex;
+    margin: 5px;
+  }
+
+  .card-one, .card-two, .card-three {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header {
+    display: flex;
+    margin-bottom: 3vw;
+    }
+
+  .header_title {
+    float: left;
+    text-align: right;
+    text-transform: uppercase;
+    }
+
+  .header_title, .content_header {
+    margin-top: 15vw;
+    margin-right: 1vw;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 5vw;
+    }
+
+  .featured_work {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .examples {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+/*
+.header_title {
+  margin-left: 30em;
+  float: left;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.header__logo {
+  display: inline-flex;
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+
+
+/*.graphic {
+  float: right;
+}
+
+.featured_work {
+  text-align: center;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example_card {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #7d97ad;
+  margin: 3px;
+  min-width: 300px;
+
+}
+
+.title {
+  display: block;
+
+
+}
+
+.thumbnail {
+  padding: 3px;
+
+}
+*/
